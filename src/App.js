@@ -3,6 +3,8 @@ import React, { Component } from "react";
 class App extends Component {
   state = {};
   render() {
+    let date = new Date();
+    let currentYear = date.getFullYear();
     return (
       <div>
         <h1>
@@ -49,6 +51,10 @@ class App extends Component {
             </dd>
           </div>
         </dl>
+        <footer>
+          <p>Copyright {currentYear}</p>
+          <p>Bobstyle_023 Soft Production</p>
+        </footer>
       </div>
     );
   }

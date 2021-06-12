@@ -81,3 +81,8 @@ dd dl {
 dd dl .term {
   margin-bottom: 1rem;
 }
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
