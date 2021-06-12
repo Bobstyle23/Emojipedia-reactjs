@@ -50,6 +50,23 @@ class App extends Component {
               for „rolling on the floor, laughing“.
             </dd>
           </div>
+
+          <div className="term">
+            <dt>
+              <span
+                className="emoji"
+                role="img"
+                aria-label="Smiling face with hearts"
+              >
+                🥰
+              </span>
+              <span>Smiling face with hearts</span>
+            </dt>
+            <dd>
+              Expresses a range of happy, affectionate feelings, especially
+              being in love.
+            </dd>
+          </div>
         </dl>
         <footer>
           <p>Copyright {currentYear}</p>
