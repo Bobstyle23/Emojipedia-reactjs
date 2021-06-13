@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import Emoji from "./components/Emojis";
 import emojipedia from "./emojipedia";
 
-function createEmoji(emojis) {
+function createEmoji(emojiTerm) {
   return (
     <Emoji
-      key={emojis.id}
-      emoji={emojis.emoji}
-      name={emojis.name}
-      meaning={emojis.meaning}
+      key={emojiTerm.id}
+      emoji={emojiTerm.emoji}
+      name={emojiTerm.name}
+      description={emojiTerm.meaning}
     />
   );
 }
@@ -25,6 +25,7 @@ class App extends Component {
         </h1>
 
         <dl className="dictionary">{emojipedia.map(createEmoji)}</dl>
+
         <footer>
           <p>Copyright {currentYear}</p>
           <p>Bobstyle_023 Soft Production</p>

@@ -28,6 +28,21 @@ const emojipedia = [
     meaning:
       "Expresses a range of happy, affectionate feelings, especially being in love.",
   },
+
+  {
+    id: 5,
+    emoji: "🤔",
+    name: "Thinking face",
+    meaning: "Intended to show a person pondering or deep in thought",
+  },
+
+  {
+    id: 6,
+    emoji: "😬",
+    name: "Grimacing face",
+    meaning:
+      "May represent a range of negative or tense emotions, especially nervousness, embarrassment, or awkwardness",
+  },
 ];
 
 export default emojipedia;
