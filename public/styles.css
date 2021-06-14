@@ -86,3 +86,12 @@ footer {
   text-align: center;
   font-size: 20px;
 }
+
+button {
+  padding: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
