@@ -5,6 +5,7 @@ class Foods extends Component {
   render(props) {
     return (
       <div className="term">
+        <h1>Foods Emoji</h1>
         <dt>
           <span className="emoji" role="img" aria-label="Tense Biceps">
             {this.props.emoji}

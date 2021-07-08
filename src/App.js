@@ -3,6 +3,8 @@ import Emoji from "./components/Emojis";
 import Foods from "./components/Foods";
 import emojipedia from "./emojipedia";
 import foods from "./foods";
+import { Route } from "react-router";
+import { NavLink } from "react-router-dom";
 
 function createEmoji(emojiTerm) {
   return (
@@ -36,9 +38,9 @@ class App extends Component {
         <h1>
           <span>emojipedia</span>
           <div>
-            <button>
-              <a href="foods">Foods</a>
-            </button>
+            <Route path="/foods" component={Foods}>
+              <NavLink href="foods">Foods</NavLink>
+            </Route>
           </div>
         </h1>
 
